@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">John Doe</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="dark-mode-toggle" id="darkModeToggle">🌙</button>
+        </div>
+    </nav>
+
+    <!-- Hero/Home Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm John Doe</h1>
+                <p class="subtitle">Full Stack Developer | Web Enthusiast</p>
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="assets/images/profile.jpg" alt="Profile Picture" class="profile-img">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate developer with a keen interest in building beautiful and functional web applications. 
+                        I love learning new technologies and solving challenging problems.
+                    </p>
+                    <p>
+                        When I'm not coding, you can find me reading, exploring new tech, or contributing to open-source projects.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="assets/projects/project1.jpg" alt="Project 1">
+                    <h3>Weather App</h3>
+                    <p>A weather application that fetches real-time data from an API and displays current conditions.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/yourusername/weather-app" target="_blank">GitHub</a>
+                        <a href="https://weather-app-demo.com" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="assets/projects/project2.jpg" alt="Project 2">
+                    <h3>Todo List</h3>
+                    <p>A responsive todo application with add, delete, and mark complete functionality using localStorage.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/yourusername/todo-app" target="_blank">GitHub</a>
+                        <a href="https://todo-app-demo.com" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="assets/projects/project3.jpg" alt="Project 3">
+                    <h3>Portfolio Website</h3>
+                    <p>A personal portfolio website showcasing skills and projects with a clean, modern design.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/yourusername/portfolio" target="_blank">GitHub</a>
+                        <a href="#" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+                <div class="skill">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>MongoDB</li>
+                        <li>REST APIs</li>
+                    </ul>
+                </div>
+                <div class="skill">
+                    <h3>Tools & Others</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>VS Code</li>
+                        <li>npm</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p class="contact-intro">I'd love to hear from you! Feel free to reach out via the form below or connect with me on social media:</p>
+            
+            <!-- Contact Form -->
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+                <p id="formMessage" class="form-message"></p>
+            </form>
+
+            <!-- Social Links -->
+            <div class="contact-links">
+                <a href="mailto:youremail@example.com" class="contact-btn">Email</a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank" class="contact-btn">LinkedIn</a>
+                <a href="https://github.com/yourusername" target="_blank" class="contact-btn">GitHub</a>
+                <a href="https://twitter.com/yourhandle" target="_blank" class="contact-btn">Twitter</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 John Doe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="dark-mode.js"></script>
+</body>
+</html>
