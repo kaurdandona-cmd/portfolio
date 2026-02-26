@@ -1,7 +1,7 @@
 /* Variables */
 :root {
-    --primary-color: #667eea;
-    --secondary-color: #764ba2;
+   --primary-color: #06b6d4;      /* Cyan */
+--secondary-color: #8b5cf6;    /* Purple */
     --text-color: #333;
     --light-bg: #f7fafc;
     --white: #ffffff;
@@ -28,11 +28,11 @@ html {
 }
 
 body {
+ 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: var(--text-color);
-    background-color: var(--white);
-    transition: var(--transition);
+
 }
 
 .container {
