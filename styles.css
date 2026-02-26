@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
 /* Variables */
 :root {
-   --primary-color: #06b6d4;      /* Cyan */
---secondary-color: #8b5cf6;    /* Purple */
+    --primary-color: #3b82f6;      /* Change to Blue */
+    --secondary-color: #1e40af;    /* Dark Blue */
     --text-color: #333;
     --light-bg: #f7fafc;
     --white: #ffffff;
@@ -9,30 +11,15 @@
     --shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-/* Dark Mode Variables */
-body.dark-mode {
-    --text-color: #f0f0f0;
-    --light-bg: #1a1a1a;
-    --white: #2d2d2d;
-}
-
-/* Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
 body {
- 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;  /* Modern font */
     line-height: 1.6;
     color: var(--text-color);
+}
 
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }
 
 .container {
